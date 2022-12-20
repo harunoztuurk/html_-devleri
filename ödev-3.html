@@ -1,0 +1,63 @@
+<!-- Bu kod parçacığı, HTML dilini kullanan bir web sayfasının kodu gibi görünüyor. Bu sayfanın konusu, bisküvili pasta tarifinin paylaşıldığı bir sayfa olduğu anlaşılıyor. HTML (HyperText Markup Language) bir işaret dilidir ve web sayfalarının yapısını ve içeriğini tanımlamak için kullanılır. Bu kod parçacığında, sayfanın üst kısmında (header etiketi içinde) bir başlık ve paragraflar bulunmaktadır. Ayrıca, sayfanın ortasında (section etiketi içinde) genel bilgiler ve tarifin detaylarının listelendiği bir bölüm vardır. Bu bölümde, malzemelerin listesi (ul etiketi içinde) ve tarifin yapılışını anlatan adımların listesi (ol etiketi içinde) bulunmaktadır. Ayrıca, sayfada yapılacak olan bölümlerin arasında bir görev ayrımı yapmak için hr (horizontal rule) etiketi kullanılmıştır. -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisküvili Pasta</title>
+
+    <style>
+        body {
+            background-color: rgb(224, 201, 169);
+        }
+        
+        section {
+            margin: auto; width:800px; 
+        }
+
+        .baslik{
+            border-radius: 100px/80px; background-color: rgb(150, 49, 2); align-content: center; color: aliceblue; margin: auto; width: 50%; text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Üst Kısım -->
+    <header>
+        <div>
+            <h1><em>...Bisküvili Pasta...</em></h1>
+            <p><em>Sizi çocukluğunuza götürecek nostaljik bir pasta tarifi.. Lezzetini hiç kaybetmeyen, günümüzde de çok sevilen, özellikle çocukların bayılarak yediği bisküvili pasta tarifiyle karşınızdayım. Altında yumuşamış bisküvileri, üzerinde kakaolu pudingi ile tam da ağzınıza layık. Denememiş olma ihtimalinizin çok düşük olduğu ancak yine de bir yerlerde denemeyenler varsa ve bisküvili pasta nasıl yapılır? diye düşünüyorlarsa buyursunlar tarifime. Denemeyi ve defterinize eklemeyi unutmayın. Şimdiden afiyet olsun. :)</em></p>
+            <p><strong>Tarif:</strong> <em>Esra Atalar Birinci</em></p>
+            <hr>
+        </div>
+    </header>
+    <!-- Genel Bilgiler Kısmı -->
+    <section>
+        <div>
+            <p><strong><u>Kaç Kişilik:</u></strong> <em>4 Kişilik</em> <strong><u>Hazırlama Süresi:</u> </strong> <em>30 Dakika</em> <strong> <u>Pişirme Süresi:</u> </strong> <em>10 Dakika</em></p>
+        </div>
+        <!-- Tarif Kısmı -->
+        <div>
+            <h2 class="baslik">Bisküvili Pasta İçin Malzemeler</h2>        
+            <ul class="recipe-materials" itemprop="recipeIngredient"><li itemprop="ingredients">3 yemek kaşığı un</li><li itemprop="ingredients">4 yemek kaşığı kakao</li><li itemprop="ingredients">1 su bardağı toz şeker</li><li itemprop="ingredients">6 su bardağı süt</li><li itemprop="ingredients">1 yemek kaşığı tereyağı</li><li itemprop="ingredients">1 paket vanilya</li><li itemprop="ingredients">3 paket petibör bisküvi</li></ul>
+            <h2 class="baslik">Kolay Bisküvili Pasta Nasıl Yapılır?</h2>
+            <ol class="recipe-instructions" itemprop="recipeInstructions">
+<li>İlk olarak muhallebimizi hazırlayalım. Bunun için uygun bir tencereye un, kakao, toz şeker ve sütü alalım ve karıştıralım.</li>
+<li>Tencereyi ocağa alalım ve muhallebi koyulaşıncaya kadar karıştırarak pişirelim.</li>
+<li>Koyulaşan muhallebimizi ocaktan alalım, içerisine tereyağı ve vanilyayı ekleyerek karıştıralım.</li>
+<li>Orta boy kare borcama petibör bisküvimizden bir sıra dizelim.</li>
+<li>Üzerine hazırladığımız muhallebiyi boşaltarak yayalım.</li>
+<li>Muhallebiyi yaydıktan sonra 2. kata geçelim.</li>
+<li>Aynı işlemi uygulayarak 4 kat bisküvi 4 kat muhallebi olacak şekilde pastamızı tamamlayalım.</li>
+<li>Oda sıcaklığına geldikten sonra pastayı en az 2 saat buzdolabında bekletelim.</li>
+<li>Pastamızı dolaptan aldıktan sonra üzerine rondodan geçirilmiş bisküvilerle kaplayalım.</li>
+<li>Daha sonra dilimleyip süsleyerek servis edelim. </li>
+</ol>
+        </div>
+    </section>
+    <footer>
+        <h3 style="text-align:end;"><strong> <em>Afiyet Olsun!</em> </strong></h3>
+    </footer>
+  
+</body>
+</html>
